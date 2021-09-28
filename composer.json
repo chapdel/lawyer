@@ -1,0 +1,28 @@
+{
+    "name": "chapdel/lawyer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "chapdel",
+            "email": "chapdel.kamga2@gmail.com"
+        }
+    ],
+    "type": "library",
+    "homepage": "https://github.com/chapdel/lawyer",
+    "keywords": [
+        "lawyer",
+        "php",
+        "laravel",
+        "validation",
+        "rules"
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lawyer\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
